@@ -19,7 +19,6 @@ body {
 
 .nav-list {
   display: flex;
-  float: right;
   margin: 10px auto;
 }
 
@@ -58,16 +57,53 @@ a {
   font-size: 80px;
 }
 
-#front-end,
-h3 {
+#front-end {
   text-align: center;
   margin: 0 auto;
   font-size: 50px;
   color: grey;
 }
 
+#graphic-designer {
+  font-size: 40px;
+  margin: 10px auto 16px;
+  color: grey;
+}
+
+#project-button {
+  display: flex;
+  margin: 0 auto;
+  border-radius: 5px;
+  border: 0;
+  padding: 20px;
+  transition-duration: 200ms;
+}
+
+#project-button:hover {
+  background-color: blue;
+}
+
+.logos {
+  max-width: 40px;
+}
+
+.project-tile {
+  margin: 0 auto;
+  width: 400px;
+  display: block;
+}
+
+.project-button {
+  margin: 10px auto;
+  border-radius: 20px;
+  border: 0;
+  padding: 20px;
+  background-color: purple;
+}
+
 footer {
-  background-color: #000;
+  background-color: rgb(46, 45, 45);
+  padding: 10px;
 }
 
 @media (max-width: 400px) {

@@ -8,7 +8,6 @@
       href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap"
       rel="stylesheet"
     />
-
     <script src="src/app.js"></script>
     <title>Hazel Lawrie's Portfolio</title>
   </head>
@@ -16,53 +15,73 @@
     <nav id="navbar">
       <ul class="nav-list">
         <li>
-          <a href="#project-title">Home</a>
+          <a href="#">Home</a>
         </li>
         <li>
-          <a href="#">Projects</a>
+          <a href="#projects">Projects</a>
         </li>
         <li>
-          <a href="#">About</a>
+          <a href="#footer">About</a>
         </li>
         <li>
-          <a href="#">Contact</a>
+          <a href="#footer">Contact</a>
         </li>
         <li>
-          <a id="resume" href="#">Resume/CV</a>
+          <a id="resume" href="#">CV</a>
         </li>
       </ul>
     </nav>
-    <div class="container">
-      <section id="welcome-section">
-        <h1 id="name">Hazel Lawrie</h1>
-        <br />
-        <h2 id="front-end">Front End Developer</h2>
-        <h3>&amp; Graphic Designer</h3>
-        <a
-          id="profile-link"
-          href="https://github.com/HazelLawrie"
-          target="_blank"
-          >Github Link</a
+    <section id="welcome-section">
+      <h1 id="name">Hazel Lawrie</h1>
+      <br />
+      <h2 id="front-end">Front End Developer</h2>
+      <h3 id="graphic-designer">&amp; Graphic Designer</h3>
+      <a id="profile-link" href="https://github.com/HazelLawrie" target="_blank"
+        ><img class="logos" src="images/GithubLogo.png" alt="Github Logo"
+      /></a>
+      <a
+        id="profile-link2"
+        href="https://instagram.com/hazel.codes"
+        target="_blank"
+        ><img class="logos" src="images/InstagramLogo.png" alt="Instagram Logo"
+      /></a>
+      <a
+        id="profile-link3"
+        href="https://www.linkedin.com/in/hazel-lawrie/"
+        target="_blank"
+        ><img class="logos" src="images/LinkedinLogo.png" alt="Instagram Logo"
+      /></a>
+      <a
+        id="profile-link4"
+        href="https://www.behance.net/hazel-lawrie"
+        target="_blank"
+        ><img class="logos" src="images/BehanceLogo.png" alt="Instagram Logo"
+      /></a>
+      <div>
+        <a href="#projects"
+          ><button id="project-button">View Projects</button></a
         >
-        <a
-          id="profile-link2"
-          href="https://github.com/HazelLawrie"
-          target="_blank"
-          >Github Link</a
-        >
-      </section>
-      <div id="projects">
-        <a href="https://boring-ardinghelli-f09f8b.netlify.app/" target="_blank"
-          ><img
-            class="project-tile"
-            src="images/weatherappimg.png"
-            alt="Project Image"
-        /></a>
       </div>
-      <footer>
-        <p>social media links</p>
-      </footer>
-    </div>
+    </section>
+    <section id="projects">
+      <a href="https://boring-ardinghelli-f09f8b.netlify.app/" target="_blank"
+        ><img
+          class="project-tile"
+          src="images/weatherappimg.png"
+          alt="Project Image"
+      /></a>
+      <a href="https://boring-ardinghelli-f09f8b.netlify.app/" target="_blank"
+        ><button class="project-button">Demo Project</button></a
+      >
+      <a
+        href="https://github.com/HazelLawrie/weather-application"
+        target="_blank"
+        ><button class="project-button">Source Code</button></a
+      >
+    </section>
+    <footer id="footer">
+      <p>Hazel Lawrie</p>
+    </footer>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   </body>
 </html>
